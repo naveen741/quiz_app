@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.myquiz{
+  display: flex;
+}
+.start,.play,.score{
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.start{
+  background-color: aquamarine;
+}
+.play{
+  background-color: blue;
+  top: 60px;
+  right: 250px;
+  z-index: 2;
+}
+.score{
+  background-color: brown;
+  top: 120px;
+  right:  505px;
+  z-index: 4;
+}
